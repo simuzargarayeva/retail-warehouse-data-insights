@@ -1,0 +1,50 @@
+
+📦 Retail & Warehouse Sales Analysis using SQL (Oracle)
+
+This project analyzes a retail and warehouse sales dataset using SQL (Oracle syntax). I explored key business metrics by solving multiple business-oriented SQL problems related to product performance, supplier efficiency, sales trends, and contribution analysis (Pareto). The project simulates real-world use cases commonly seen in retail analytics and supply chain management.
+
+📁 Dataset Fields
+
+Includes fields such as:
+
+year, month, supplier, item_code, item_name, item_type, retail_sales, retail_transfers, warehouse_sales
+
+
+✅ Business Questions Answered
+
+1. Top 5 best-selling products by retail sales
+2. Average monthly retail sales by supplier
+3. Monthly trend analysis of warehouse sales
+4. Products with the highest difference between retail and warehouse sales
+5. Identify whether retail or warehouse sales dominate per product
+6. Find peak retail sales month per product
+7. List distinct products sold by the top 3 suppliers by total retail sales
+8. Pareto analysis: Which products contribute to 80% of total retail sales
+
+
+🔧 SQL Concepts Used
+
+Filtering: WHERE, HAVING
+Aggregation: SUM, AVG, ABS
+Grouping and Sorting: GROUP BY, ORDER BY
+Conditional Logic: CASE WHEN
+Ranking & Trends: ROW_NUMBER(), OVER(PARTITION BY ...)
+CTEs (Common Table Expressions): for subquery organization and Pareto analysis
+Cumulative Calculations: SUM(...) OVER() to compute running totals
+
+
+
+📊 Key Insights
+
+A few top-selling products drive most of the retail revenue (Pareto principle observed)
+Some products show high discrepancies between warehouse and retail sales, indicating possible inventory or distribution issues
+Monthly and supplier-based sales trends help in understanding seasonality and supplier performance
+Identifying dominant sales channels (retail vs warehouse) enables better demand planning
+Knowing the peak month for each product supports time-based marketing and stocking strategies
+
+
+
+🛠 Tools Used
+
+  Oracle SQL
+  SQL Developer
